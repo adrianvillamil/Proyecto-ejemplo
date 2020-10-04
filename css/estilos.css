@@ -1,3 +1,28 @@
 h1 {
     background-color: red;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+div > ul, div > p {
+    background-color: royalblue;
+    margin: 10px;
+}
+
+div > ul {
+    flex: 50%;
+    
+}
+
+div > p {
+    flex: 50%;
+    text-align: center;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
 }
